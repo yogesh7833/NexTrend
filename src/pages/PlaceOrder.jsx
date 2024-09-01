@@ -4,7 +4,7 @@ import CartTotal from '../components/CartTotal'
 import { assets } from '../assets/assets'
 import { ShopContext } from '../context/ShopContext'
 
-const Placeorder = () => {
+const PlaceOrder = () => {
   const [method,setMethod]=useState('cod');
   const {navigate}=useContext(ShopContext);
   return (
@@ -62,4 +62,4 @@ const Placeorder = () => {
   )
 }
 
-export default Placeorder
+export default PlaceOrder
